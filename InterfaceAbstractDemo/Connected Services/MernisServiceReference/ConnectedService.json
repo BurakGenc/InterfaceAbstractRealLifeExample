@@ -1,0 +1,43 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.31022.994",
+  "ExtendedData": {
+    "inputs": [
+      "https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, MernisServiceReference"
+    ],
+    "references": [
+      "Google.Protobuf, {Google.Protobuf, 3.9.1}",
+      "Grpc.Core.Api, {Grpc.Core.Api, 2.23.0}",
+      "Grpc.Net.Client, {Grpc.Net.Client, 2.23.2}",
+      "Grpc.Net.ClientFactory, {Grpc.Net.ClientFactory, 2.23.2}",
+      "Grpc.Net.Common, {Grpc.Net.Common, 2.23.2}",
+      "Microsoft.Extensions.Configuration, {Microsoft.Extensions.Configuration, 2.1.1}",
+      "Microsoft.Extensions.Configuration.Abstractions, {Microsoft.Extensions.Configuration.Abstractions, 2.1.1}",
+      "Microsoft.Extensions.Configuration.Binder, {Microsoft.Extensions.Configuration.Binder, 2.1.1}",
+      "Microsoft.Extensions.DependencyInjection.Abstractions, {Microsoft.Extensions.DependencyInjection.Abstractions, 2.1.1}",
+      "Microsoft.Extensions.Http, {Microsoft.Extensions.Http, 2.1.1}",
+      "Microsoft.Extensions.Logging, {Microsoft.Extensions.Logging, 2.1.1}",
+      "Microsoft.Extensions.Logging.Abstractions, {Microsoft.Extensions.Logging.Abstractions, 2.1.1}",
+      "Microsoft.Extensions.Options, {Microsoft.Extensions.Options, 2.1.1}",
+      "Microsoft.Extensions.Primitives, {Microsoft.Extensions.Primitives, 2.1.1}",
+      "Newtonsoft.Json, {Newtonsoft.Json, 12.0.2}",
+      "System.Diagnostics.DiagnosticSource, {System.Diagnostics.DiagnosticSource, 4.5.1}",
+      "System.Runtime.CompilerServices.Unsafe, {System.Runtime.CompilerServices.Unsafe, 4.5.1}",
+      "System.ServiceModel, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Duplex, {System.ServiceModel.Duplex, 4.4.4}",
+      "System.ServiceModel.Http, {System.ServiceModel.Http, 4.4.4}",
+      "System.ServiceModel.NetTcp, {System.ServiceModel.NetTcp, 4.4.4}",
+      "System.ServiceModel.Primitives, {System.ServiceModel.Primitives, 4.4.4}",
+      "System.ServiceModel.Security, {System.ServiceModel.Security, 4.4.4}"
+    ],
+    "targetFramework": "netcoreapp3.1",
+    "typeReuseMode": "All"
+  }
+}
